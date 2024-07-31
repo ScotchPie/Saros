@@ -1,0 +1,24 @@
+{
+  "name": "saros",
+  "version": "0.0.1",
+  "description": "",
+  "private": "true",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "changeset": "changeset",
+    "packages-version": "changeset version",
+    "publish": "changeset publish --registry=https://registry.npmjs.com/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.7",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.19.1",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.4"
+  }
+}
