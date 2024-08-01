@@ -1,3 +1,3 @@
-export default function coreFunction(): void {
+export default function Core(): void {
     console.log("core")
 }
